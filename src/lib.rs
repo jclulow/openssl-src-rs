@@ -180,6 +180,7 @@ impl Build {
             "x86_64-unknown-linux-gnu" => "linux-x86_64",
             "x86_64-unknown-linux-musl" => "linux-x86_64",
             "x86_64-unknown-netbsd" => "BSD-x86_64",
+            "x86_64-sun-solaris" => "solaris64-x86_64-gcc",
             "wasm32-unknown-emscripten" => "gcc",
             "wasm32-unknown-unknown" => "gcc",
             "aarch64-apple-ios" => "ios64-cross",
